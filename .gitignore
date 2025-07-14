@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual Environment ---
+.env/
+.venv/
+env/
+venv/
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- OS: macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- OS: Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Excel: 一時ファイル ---
+~$*
+
+# --- Excel: データファイル（任意で除外） ---
+tickets.xlsx
+
+# --- その他: VSCode設定など（必要なら） ---
+.vscode/
